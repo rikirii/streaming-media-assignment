@@ -1,0 +1,25 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "streaming media assignment",
+  "homepage": "https://github.com/rikirii/streaming-media-assignment#readme",
+  "bugs": {
+    "url": "https://github.com/rikirii/streaming-media-assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikirii/streaming-media-assignment.git"
+  },
+  "license": "UNLICENSED",
+  "author": "",
+  "type": "commonjs",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2"
+  }
+}
